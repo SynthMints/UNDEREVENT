@@ -1,0 +1,44 @@
+body{
+	margin: 0;
+}
+
+header{
+	background-color: blanchedalmond;
+	text-align: center;
+}
+
+header h1{
+	color: black;
+
+}
+
+header img{
+	margin: 0;
+	background-color: black;
+	border-radius: 150px;
+
+}
+
+main h2 {
+
+	text-align: center;
+
+}
+
+main .smash{
+
+	border-radius: 300px;
+	width: 300px;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+main .bobby{
+	background-color: blue;
+	height: 450px;
+	width: 500;
+
+}
+
