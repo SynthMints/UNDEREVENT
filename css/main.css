@@ -1,6 +1,7 @@
-.background{
-    background-image: url('img/bg.gif');
-    background-size: cover;
+body{
+    color: white;
+    background-color: black;
+    margin: 0px;
 }
 
 header {
@@ -8,10 +9,33 @@ header {
     color: white;
     background-image: url('img/bg.gif');
     background-color: black;
+    margin: 0px;
 }
 
-body {
+.navi ul{
+    list-style-type: none;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
     
-    background-image: url('/UNDEREVENT/img/bg.gif');
-    background-size: cover;
+}
+ 
+.navi a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+
+}
+
+.navi a:hover{
+    background-color: hsl(0, 0%, 11%);
+    text-align: center;
+}
+
+.navi li{
+    display: inline-block;
+    
 }
