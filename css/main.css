@@ -6,9 +6,11 @@
 header {
     text-align: center;
     color: white;
+    background-image: url('img/bg.gif');
     background-color: black;
 }
 
 body {
-    background-color: black;
+    
+    background-image: url('/UNDEREVENT/img/bg.gif');
 }
