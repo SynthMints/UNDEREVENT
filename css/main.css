@@ -13,4 +13,5 @@ header {
 body {
     
     background-image: url('/UNDEREVENT/img/bg.gif');
+    background-size: cover;
 }
