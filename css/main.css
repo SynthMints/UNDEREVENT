@@ -3,5 +3,5 @@ header {
 }
 
 body {
-    background-image: src="img/bg.gif";
+    background-image: url("img/bg.gif");
 }
