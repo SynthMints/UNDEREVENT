@@ -1,0 +1,344 @@
+
+body{
+	background: #c31432;
+	background: -webkit-linear-gradient(to bottom, #240b36, #c31432); 
+	background: linear-gradient(to bottom, #240b36, #c31432);
+	margin: 0;
+}
+
+@font-face {
+    font-family: 'mabookregular';
+    src: url('../website 2/fonts/mabook-0wybx-webfont.woff2') format('woff2'),
+         url('../website 2/fonts/mabook-0wybx-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'beat';
+    src: url('../website 2/fonts/beatworddemo-nrl20-webfont.woff2') format('woff2'),
+         url('../website 2/fonts/beatworddemo-nrl20-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'merry';
+    src: url('../website 2/fonts/merrychristmas2021-owol4-webfont.woff2') format('woff2'),
+         url('../website 2/fonts/merrychristmas2021-owol4-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.garry{
+	color: white;
+	font-family: mabookregular;
+	font-weight: normal;
+}
+
+.sans {
+	width: 300px;
+  height: 300px;
+  transition: width 4s, height 2s, opacity 2s;
+	border: 0px solid goldenrod;
+  opacity: 0.5;
+  		display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sans:hover {
+  border: 5px solid goldenrod;
+  opacity: 1.0;
+  width: 100%;
+    		display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+figure{
+
+	font-size: 12px;
+	color: white;"
+
+
+}
+
+
+footer{
+	background-color: white;
+	text-align: center;
+	font-size: 20px;
+	font-family: mabookregular;
+}
+
+footer .end:link {
+
+	color: black;
+}
+
+footer .end:visited {
+
+	color: black;
+}
+
+footer .end:hover {
+	color: red;
+}
+
+.row{
+	style="color: white;"
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.bob{
+  color: white;
+  font-size: 30px;
+  text-align: center;
+
+}
+
+.top{
+  padding: 150px;
+  transition-duration: 1s;
+  scroll-behavior: filter: blur(1.5rem);
+}
+
+.top:hover{
+	filter: blur(1.5rem);
+}
+
+div{
+
+	color: white;
+}
+
+.gr33n{
+
+	background-color: green;
+	text-align: center;
+	font-family: mabookregular;
+
+
+}
+
+
+.men{
+	width: 400px;
+	height: 400px;
+
+}
+
+li{
+	font-weight: bold;
+}
+
+.bob{
+	font-family: merry;
+}
+
+.header{
+	background-color: white;
+	text-align: center;
+	font-size: 20px;
+	font-family: mabookregular;
+}
+
+div .header:link {
+
+	color: black;
+}
+
+div .header:visited {
+
+	color: black;
+}
+
+div .header:hover {
+	color: red;
+}
+
+.middle{
+
+  padding: 150px;
+  transition-duration: 1s;
+}
+
+.page{
+	background-color: black;
+}
+
+.navigation {
+	background-color: black;
+	overflow: hidden;
+	font-family: mabookregular;
+	text-decoration: none;
+	opacity: 0.5;
+	transition-duration: 0.5s;
+}
+
+.navigation:hover{
+	opacity: 1.0;
+}
+
+.navigation a {
+	float: right;
+	color: whitesmoke;
+	text-align: center;
+	font-size: 20px;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+
+.dropdown{
+	float: right;
+	overflow: hidden;
+}
+
+.dropdown .drop{
+	font-size: 20px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
+
+.navigation a:hover, .dropdown:hover .drop{
+	background: whitesmoke;
+	color: black;
+}
+
+.content{
+	display: none;
+	position: absolute;
+	background-color: black;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.content a{
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: right;
+}
+
+.content a:hover{
+	background-color: black;
+}
+
+.dropdown:hover .content{
+	display: block;
+}.navigation {
+	background-color: black;
+	overflow: hidden;
+	font-family: mabookregular;
+	text-decoration: none;
+}
+
+.navigation a {
+	float: right;
+	color: whitesmoke;
+	text-align: center;
+	font-size: 20px;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.navigation a:hover{
+	color: black;
+	background-color: #e2e2e2;
+	text-decoration: none;
+}
+
+.dropdown{
+	float: right;
+	overflow: hidden;
+}
+
+.dropdown .drop{
+	font-size: 20px;
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
+
+.navigation a:hover, .dropdown:hover .drop{
+	background: whitesmoke;
+	color: black;
+}
+
+.drop-content{
+	display: none;
+	position: absolute;
+	background-color: whitesmoke;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px(0,0,0,0.2);
+	z-index: 1;
+}
+
+.drop-content a{
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: right;
+}
+
+.drop-content a:hover{
+	background-color: black;
+}
+
+.dropdown:hover .content{
+	display: block;
+}
+
+.slideshow{
+	background-color: black;
+	padding: 20px 20px;
+}
+
+.mySlides{
+		display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img .mySlides{
+	    		display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.john{
+	size: 40px;
+}
