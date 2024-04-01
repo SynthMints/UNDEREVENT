@@ -1,7 +1,14 @@
+.background{
+    background-image: url('img/bg.gif');
+    background-size: cover;
+}
+
 header {
     text-align: center;
+    color: white;
+    background-color: black;
 }
 
 body {
-    background-image: url("img/bg.gif");
+    background-color: black;
 }
