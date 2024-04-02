@@ -66,10 +66,18 @@
     filter: blur(2px);
 }
 
-
+/*  --------------CHANGE COLOR OF HREF LINKS-------------- */
 a{
     color: inherit;
 }
+
+/*  --------------CENTER IMAGES-------------- */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 /*  --------------GENERAL CSS-------------- */
 body{
     margin: 0px;
