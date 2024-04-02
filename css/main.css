@@ -1,6 +1,8 @@
 body{
+    font-family: "VT323", Arial, Helvetica, sans-serif;
+    font-size: 2rem;
     color: white;
-    background-color: black;
+    background-color: orange;
     margin: 0px;
 }
 
@@ -14,7 +16,6 @@ header {
 
 .navi ul{
     list-style-type: none;
-    background-color: black;
     padding: 0px;
     margin: 0px;
     text-align: center;
@@ -38,4 +39,12 @@ header {
 .navi li{
     display: inline-block;
     
+}
+
+footer{
+    color: black;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    background-color: white;
 }
