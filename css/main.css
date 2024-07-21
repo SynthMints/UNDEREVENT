@@ -68,7 +68,7 @@ a{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 10%;
+    width: 20%;
 }
 
 /*  --------------GENERAL CSS-------------- */
@@ -97,4 +97,5 @@ img{
 .VidB{
     background-color: rgb(27, 27, 27);
     padding: 10px;
+    border: 0;
 }
