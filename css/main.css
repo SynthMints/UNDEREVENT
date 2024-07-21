@@ -12,6 +12,7 @@
     color: white;
     background-color: rgb(56,56,56);
     margin: 0px;
+
 }
 .navi ul{
     list-style-type: none;
@@ -42,13 +43,14 @@
 
 /*  --------------FOOTER-------------- */
 .footer{
-    position: fixed;
+
     left: 0;
     bottom: 0;
     width: 100%;
     color: white;
     text-align: center;
     background-color:rgb(56,56,56);
+    margin-top: auto;
 }
 
 /*  --------------CHANGE COLOR OF HREF LINKS-------------- */
@@ -79,6 +81,11 @@ body{
     font-size: 1rem;
     color: white;
     background-color: black;
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
 }
 
 main{
@@ -100,3 +107,5 @@ img{
     padding: 10px;
     border: 0;
 }
+
+/*  --------------TEAM MEMBERS-------------- */
