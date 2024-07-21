@@ -51,6 +51,16 @@
     background-color:rgb(56,56,56);
 }
 
+.sillysoul{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    background-color:rgb(0,0,0);
+}
+
 /*  --------------CHANGE COLOR OF HREF LINKS-------------- */
 a{
     color: inherit;
