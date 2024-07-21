@@ -55,15 +55,9 @@
 /*  --------------Bg-------------- */
 .background{
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     min-height: 100vh;
-    background-color: rgba(0, 0, 0, 0.767);
-    background-image: url('../img/VOID_BG.png');
-    background-blend-mode: darken;
-    z-index: -1;
-    filter: blur(2px);
+    background-color:black;
 }
 
 /*  --------------CHANGE COLOR OF HREF LINKS-------------- */
