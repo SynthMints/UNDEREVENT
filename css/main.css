@@ -89,3 +89,12 @@ img{
     max-width: 100%;
     height: auto;
 }
+
+.PPV{
+    text-align: center;
+}
+
+.VidB{
+    background-color: rgb(27, 27, 27);
+    padding: 10px;
+}
