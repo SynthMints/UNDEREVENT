@@ -8,7 +8,7 @@
 
 .header {
     text-align: center;
-    font-size: 3rem;
+    font-size: 1rem;
     color: white;
     background-color: rgb(56,56,56);
     margin: 0px;
@@ -18,7 +18,7 @@
     padding: 0px;
     margin: 0px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1rem;
     
 }
  
@@ -28,7 +28,6 @@
     padding: 15px;
     display: block;
     text-align: center;
-
 }
 
 .navi a:hover{
@@ -68,8 +67,8 @@ a{
 body{
     margin: 0px;
     padding: 0px;
-    font-family: "VT323", Arial, Helvetica, sans-serif;
-    font-size: 2rem;
+    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
     color: white;
     background-color: black;
 }
