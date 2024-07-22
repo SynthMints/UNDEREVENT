@@ -296,3 +296,52 @@ div.header {
     opacity: 1;
     background-color: black;
 }
+
+/* ============================================== CREDITS ================================== */
+.credits{
+    animation-duration: 1s;
+    animation-name: fadein;
+    animation-iteration-count: 1;
+    opacity: 1;
+}
+
+.creditEntry{
+    display: flex;
+    font-size: 24px;
+    width: 100%;
+    white-space: nowrap;
+    justify-content: space-between;
+}
+.creditMember{
+    color: #fff;
+    padding-top: 1em;
+    font-size: 20px;
+    padding: left;
+    padding-left: 200px;
+    font-size: 1vw;
+}
+@keyframes fadein {
+    from {
+        opacity: 0%;
+    }
+  
+    to {
+        opacity: 100%;
+    }
+  }
+.creditCatagory{
+    color: #fff129;
+    padding-top: 2em;
+    font-size: 20px;
+    text-align: center;
+    font-size: 1.3vw;
+}
+.creditRole{
+    color: #fff;
+    padding-top: 1em;
+    margin-left: 2rem;
+    font-size: 20px;
+    padding-right: 200px;
+    padding: right;
+    font-size: 1vw;
+}
