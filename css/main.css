@@ -1,6 +1,6 @@
 /*  --------------BANNER-------------- */
 .banner{
-    background-image: url("/img/UeBannerTest.jpg");
+    background-image: url("../img/UeBannerTest.jpg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -102,6 +102,14 @@ body{
     flex-direction: column;
 }
 
+.WholeBody{
+    margin : 50px 250px 0px 250px;
+    /*
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px; */
+}
+
 main{
     text-align: center;
 }
@@ -123,3 +131,72 @@ img{
 }
 
 /*  --------------TEAM MEMBERS-------------- */
+
+
+/*  --------------COLUMNS-------------- */
+.wrapper{
+    padding: 5px;
+    max-width: 960px;
+    width: 95%;
+    margin: 20px auto;
+}
+/*  --------------COLUMNS-------------- */
+
+/*
+.columns{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 5px 0;
+}
+*/
+
+/*
+.column{
+    flex: 1;
+    margin: 2px;
+    padding: 10px;
+    transition: 0.3s;
+}
+*/
+
+/*
+.column{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+*/
+
+/*  --------------COLUMNS 1-------------- */
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 150px;
+}
+
+.imageL{
+    padding-right: 100px;
+    max-width: 35%;
+    max-height: 25%;
+    float: left;
+}
+
+.textL{
+    font-size: 20px;
+    padding: left;
+}
+
+.imageR{
+    max-width: 35%;
+    max-height: 25%;
+    float: right;
+}
+
+.textR{
+    font-size: 20px;
+    padding-right: 20px;
+    padding: right;
+}
