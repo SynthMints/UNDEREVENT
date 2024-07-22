@@ -81,6 +81,16 @@ a{
     color: inherit;
 }
 
+/*  --------------BANNER-------------- */
+.woah{
+/*    background-image: url("../img/UeBannerTest.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
 /*  --------------CENTER IMAGES-------------- */
 .center {
     display: block;
