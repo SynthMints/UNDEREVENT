@@ -82,15 +82,6 @@ a{
     color: inherit;
 }
 
-/*  --------------BANNER-------------- */
-
-/*    background-image: url("../img/UeBannerTest.jpg");
-    min-height: 500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;*/
-
 
 /*  --------------CENTER IMAGES-------------- */
 .center {
@@ -125,10 +116,7 @@ body{
 
 .WholeBody{
     margin : 50px 250px 0px 250px;
-    /*
-    margin-left: 250px;
-    margin-right: 250px;
-    margin-top: 50px; */
+
 }
 
 main{
@@ -150,8 +138,6 @@ img{
     padding: 10px;
     border: 0;
 }
-
-/*  --------------TEAM MEMBERS-------------- */
 
 
 /*  --------------COLUMNS-------------- */
@@ -293,6 +279,15 @@ div.header {
 }
 
 /* ============================================== CREDITS ================================== */
+.CC{
+    padding-top: 6vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    background-color: #3b3b3b4b;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 .credits{
     animation-duration: 1s;
     animation-name: fadein;
@@ -301,20 +296,23 @@ div.header {
 }
 
 .creditEntry{
-    display: flex;
-    font-size: 24px;
-    width: 100%;
-    white-space: nowrap;
-    justify-content: space-between;
+    
 }
+
+.creditCatagory{
+    color: #fff129;
+}
+
 .creditMember{
-    color: #fff;
-    padding-top: 1em;
-    font-size: 20px;
-    padding: left;
-    padding-left: 200px;
-    font-size: 1vw;
+    display: inline-block;
+    margin-bottom: 2vw;
 }
+
+.creditRole{
+    display: inline-block;
+    padding-top: 1vw;
+}
+
 @keyframes fadein {
     from {
         opacity: 0%;
@@ -324,19 +322,3 @@ div.header {
         opacity: 100%;
     }
   }
-.creditCatagory{
-    color: #fff129;
-    padding-top: 2em;
-    font-size: 20px;
-    text-align: center;
-    font-size: 1.3vw;
-}
-.creditRole{
-    color: #fff;
-    padding-top: 1em;
-    margin-left: 2rem;
-    font-size: 20px;
-    padding-right: 200px;
-    padding: right;
-    font-size: 1vw;
-}
