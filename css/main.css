@@ -21,7 +21,7 @@
 
 .header {
     text-align: center;
-    font-size: 1rem;
+    font-size: 1vw;
     color: white;
     background-color: rgb(56,56,56);
     margin: 0px;
@@ -32,7 +32,7 @@
     padding: 0px;
     margin: 0px;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1vw;
     
 }
  
@@ -92,7 +92,7 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
-    font-size: 1rem;
+    font-size: 1vw;
     color: white;
     background-color: black;
 
@@ -179,19 +179,20 @@ img{
 
 .imageL{
     padding-right: 100px;
-    max-width: 35%;
-    max-height: 25%;
+    max-width: 45%;
+    max-height: 35%;
     float: left;
 }
 
 .textL{
     font-size: 20px;
     padding: left;
+    font-size: 1vw;
 }
 
 .imageR{
-    max-width: 35%;
-    max-height: 25%;
+    max-width: 45%;
+    max-height: 35%;
     float: right;
 }
 
@@ -199,4 +200,5 @@ img{
     font-size: 20px;
     padding-right: 20px;
     padding: right;
+    font-size: 1vw;
 }
