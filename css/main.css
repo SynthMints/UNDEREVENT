@@ -1,24 +1,38 @@
+/*  --------------BANNER-------------- */
+.banner{
+    background-image: url("../img/UeBannerTest.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 /*  --------------LOGO CODE-------------- */
 .logo{
-    padding-top: 30px;
+    padding: px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 /*  --------------NAVI CODE-------------- */
 
 .header {
     text-align: center;
-    font-size: 1rem;
+    font-size: 1vw;
     color: white;
     background-color: rgb(56,56,56);
     margin: 0px;
+    position: sticky;
 }
 .navi ul{
     list-style-type: none;
     padding: 0px;
     margin: 0px;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1vw;
     
 }
  
@@ -42,13 +56,14 @@
 
 /*  --------------FOOTER-------------- */
 .footer{
-    position: fixed;
+
     left: 0;
     bottom: 0;
     width: 100%;
     color: white;
     text-align: center;
     background-color:rgb(56,56,56);
+    margin-top: auto;
 }
 
 .sillysoul{
@@ -78,7 +93,8 @@ a{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 10%;
+    width: 30%;
+    padding-top: 150px;
 }
 
 /*  --------------GENERAL CSS-------------- */
@@ -86,13 +102,26 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
-    font-size: 1rem;
+    font-size: 1vw;
     color: white;
     background-color: black;
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.WholeBody{
+    margin : 50px 250px 0px 250px;
+    /*
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px; */
 }
 
 main{
-    padding-left: 10px;
+    text-align: center;
 }
 
 img{
@@ -100,6 +129,7 @@ img{
     height: auto;
 }
 
+/*  --------------PAST PROJECTS-------------- */
 .PPV{
     text-align: center;
 }
@@ -107,4 +137,78 @@ img{
 .VidB{
     background-color: rgb(27, 27, 27);
     padding: 10px;
+    border: 0;
+}
+
+/*  --------------TEAM MEMBERS-------------- */
+
+
+/*  --------------COLUMNS-------------- */
+.wrapper{
+    padding: 5px;
+    max-width: 960px;
+    width: 95%;
+    margin: 20px auto;
+}
+/*  --------------COLUMNS-------------- */
+
+/*
+.columns{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 5px 0;
+}
+*/
+
+/*
+.column{
+    flex: 1;
+    margin: 2px;
+    padding: 10px;
+    transition: 0.3s;
+}
+*/
+
+/*
+.column{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+*/
+
+/*  --------------COLUMNS 1-------------- */
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 150px;
+}
+
+.imageL{
+    padding-right: 100px;
+    max-width: 45%;
+    max-height: 35%;
+    float: left;
+}
+
+.textL{
+    font-size: 20px;
+    padding: left;
+    font-size: 1vw;
+}
+
+.imageR{
+    max-width: 45%;
+    max-height: 35%;
+    float: right;
+}
+
+.textR{
+    font-size: 20px;
+    padding-right: 20px;
+    padding: right;
+    font-size: 1vw;
 }
