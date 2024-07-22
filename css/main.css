@@ -1,3 +1,5 @@
+
+
 /*  --------------BANNER-------------- */
 .banner{
     background-image: url("../img/UeBannerTest.jpg");
@@ -103,20 +105,17 @@ a{
 body{
     margin: 0px;
     padding: 0px;
-    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
     font-size: 1vw;
     color: white;
     background-color: black;
-
     min-height: 100vh;
-
     display: flex;
     flex-direction: column;
 }
 
 .WholeBody{
     margin : 50px 250px 0px 250px;
-
+    font-family:  "mother", Arial, Helvetica, sans-serif;
 }
 
 main{
@@ -296,7 +295,7 @@ div.header {
 }
 
 .creditEntry{
-    
+    color: red;
 }
 
 .creditCatagory{
