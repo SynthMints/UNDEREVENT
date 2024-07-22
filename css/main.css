@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Mother';
-    src: url('/fonts/determinationmonowebregular-z5oq-webfont.woff2') format('woff2'),
-         url('/fonts/determinationmonowebregular-z5oq-webfont.woff') format('woff');
+    src: url('./fonts/determinationmonowebregular-z5oq-webfont.woff2') format('woff2'),
+         url('./fonts/determinationmonowebregular-z5oq-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
