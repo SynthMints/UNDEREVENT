@@ -83,14 +83,14 @@ a{
 }
 
 /*  --------------BANNER-------------- */
-.woah{
+
 /*    background-image: url("../img/UeBannerTest.jpg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;*/
-}
+
 
 /*  --------------CENTER IMAGES-------------- */
 .center {
@@ -161,6 +161,7 @@ img{
     width: 95%;
     margin: 20px auto;
 }
+
 /*  --------------COLUMNS-------------- */
 
 /*
@@ -239,9 +240,15 @@ div.header {
     position: sticky;
     top: 0;
   }
+
 /*  --------------VIDEO GALLARY-------------- */
+
 .containerV{
-    padding: 2vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
 }
 
 .slider-wrapper{
