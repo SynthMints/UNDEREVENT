@@ -163,13 +163,12 @@ p{
     padding: 5px;
     max-width: 1000px;
     width: 90%;
-    margin: 20px auto;
-    
+    margin: 1vw auto;
 }
 
 .columns{
-    display: flex;
-    flex-flow: row wrap;
+    display: inline-block;
+    flex-flow: column wrap;
     justify-content: center;
     margin: 1vw 0;
 }
@@ -177,35 +176,36 @@ p{
 .column{
     flex: 1;
     margin: 0.5vw;
-    padding: 1vw;
-    transition: 0.3s;
+    padding: 1.vw;
     text-decoration: none;
 }
 
-.border{
-    border-style: solid;
-}
 
 .column img{
-    width: 10vw;
+    width: 15vw;
+    box-shadow: 0 0 15px white;
+}
+
+.columns :hover{
+    transition: 0.3s;
+    box-shadow: 0 0 5px white, 0 0 25px white, 0 0 50px white;
+    color: #fff129;
 }
 
 .column p{
     padding: 0vw;
 }
 
-.columns :hover{
-    opacity: 1;
-    background-color: rgb(65, 65, 65);
 
-}
-
-.column :hover{
-    opacity: 1;
-    background-color: rgb(65, 65, 65);
-}
 
 /*  --------------COLUMNS TEAM MEMBERS-------------- */
+.columnsP{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 1vw 0;
+}
+
 .columnP{
     flex: 1;
     margin: 0.5vw;
@@ -223,11 +223,14 @@ p{
     padding: 0vw;
 }
 
-.columnP :hover{
+.columnsP :hover{
     opacity: 1;
     background-color: rgb(65, 65, 65);
 }
 
+.PN :hover{
+    color: #fff129;
+}
 
 /*  --------------COLUMNS HOME-------------- */
 .container{
