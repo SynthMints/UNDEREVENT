@@ -37,7 +37,7 @@
     background-color: rgb(56,56,56);
     margin: 0px;
     position: sticky;
-    
+    z-index: 2000;
 }
 .navi ul{
     list-style-type: none;
@@ -70,7 +70,6 @@
 
 /*  --------------FOOTER-------------- */
 .footer{
-
     left: 0;
     bottom: 0;
     width: 100%;
@@ -158,6 +157,46 @@ p{
 }
 
 
+/* --------------BETTER PROJECTS-------------------*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Three columns with equal width */
+    gap: 2vw; /* Gap between grid items */
+    margin: 1vw;
+    padding: 1vw;
+}
+
+.grid-item {
+    position: relative; /* Required for positioning text and effects */
+}
+
+.grid-item img {
+    width: 100%; /* Ensure images fill their container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any extra spacing */
+    transition: transform 0.3s ease; /* Smooth image scale on hover */
+}
+
+.grid-item .title {
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease, color 0.3s ease; /* Smooth transition for text */
+    text-align: center;
+    padding: 2vw;
+    font-size: 2vw;
+    opacity: 1;
+}
+
+.grid-item:hover img {
+    transform: scale(1.1); /* Scale image on hover */
+    box-shadow: 0 0 20px, 0 0 50px;
+}
+
+.grid-item:hover .title {
+    color: yellow; /* Change text color to yellow on hover */
+}
+
 /*  --------------COLUMNS PROJECTS-------------- */
 .wrapper{
     padding: 5px;
@@ -167,8 +206,12 @@ p{
 }
 
 .columns{
-    display: inline-block;
-    flex-flow: column wrap;
+/*    display:flex;
+    flex-flow: row wrap;
+    */
+    display: grid;
+    grid-template-rows: 4vw 4vw 4vw;
+    grid-template-columns: 18vw 18vw 18vw;
     justify-content: center;
     margin: 1vw 0;
 }
@@ -190,6 +233,7 @@ p{
     transition: 0.3s;
     box-shadow: 0 0 5px white, 0 0 25px white, 0 0 50px white;
     color: #fff129;
+    border-style: none;
 }
 
 .column p{
@@ -228,7 +272,7 @@ p{
     background-color: rgb(65, 65, 65);
 }
 
-.PN :hover{
+.columnP:hover .PN{
     color: #fff129;
 }
 
