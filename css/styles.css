@@ -1,0 +1,22 @@
+
+.background-container {
+    background-image: url('../img/banner.png'); /* Replace with your background image */
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh; /* Adjust height as needed */
+    position: relative;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-overlay img {
+    display: block;
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto; /* Maintain aspect ratio */
+}

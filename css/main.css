@@ -4,12 +4,15 @@
          url('../fonts/determinationmonowebregular-z5oq-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 
+*{
+    margin: 0;
+    padding: 0;
+}
 
-/*  --------------BANNER-------------- */
+/*  --------------BANNER-------------- 
 .banner{
     background-image: url("../img/UeBannerTest.jpg");
     min-height: 500px;
@@ -18,14 +21,38 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+*/
+
+/*  --------------BANNER-------------- */
+.background-container {
+    background-image: url('../img/banner.png'); 
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh; 
+    position: relative;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-overlay img {
+    display: block;
+    max-width: 100%; 
+    height: auto;
+}
 
 /*  --------------LOGO CODE-------------- */
 .logo{
     padding: px;
     position: absolute;
-    top: 50%;
+    top: 25%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-75%,-50%);
 }
 
 /*  --------------NAVI CODE-------------- */
@@ -46,7 +73,6 @@
     text-align: center;
     font-size: 1.5vw;
     
-    
 }
  
 .navi a{
@@ -60,7 +86,7 @@
 .navi a:hover{
     background-color: hsl(0, 0%, 33%);
     text-align: center;
-    
+    color: yellow;
 }
 
 .navi li{
@@ -161,40 +187,44 @@ p{
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Three columns with equal width */
-    gap: 2vw; /* Gap between grid items */
-    margin: 1vw;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 1vw;
+    margin: 2vw;
     padding: 1vw;
 }
 
 .grid-item {
-    position: relative; /* Required for positioning text and effects */
-}
+    position: relative; 
+    padding: 1vw;}
 
 .grid-item img {
-    width: 100%; /* Ensure images fill their container */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Remove any extra spacing */
-    transition: transform 0.3s ease; /* Smooth image scale on hover */
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    transition: transform 0.3s ease; 
 }
 
 .grid-item .title {
     color: white;
     opacity: 0;
-    transition: opacity 0.3s ease, color 0.3s ease; /* Smooth transition for text */
+    transition: opacity 0.3s ease, color 0.3s ease; 
     text-align: center;
-    padding: 2vw;
-    font-size: 2vw;
+    padding: 1vw;
+    font-size: 1.7vw;
     opacity: 1;
 }
 
 .grid-item:hover img {
-    transform: scale(1.1); /* Scale image on hover */
+    transform: scale(1.1);
     box-shadow: 0 0 20px, 0 0 50px;
 }
 
 .grid-item:hover .title {
-    color: yellow; /* Change text color to yellow on hover */
+    color: yellow; 
+}
+
+.HeaderText{
+    font-size: 5vw;
 }
 
 /*  --------------COLUMNS PROJECTS-------------- */
