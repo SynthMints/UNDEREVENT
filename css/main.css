@@ -227,6 +227,29 @@ p{
     font-size: 5vw;
 }
 
+.grid-item:hover img .titleC{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px, 0 0 50px red;
+}
+
+.grid-item:hover .titleC{
+    color: red; 
+}
+
+.grid-item:hover .imgC{
+    box-shadow: 0 0 20px, 0 0 50px red;
+}
+
+.grid-item .titleC {
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease, color 0.3s ease; 
+    text-align: center;
+    padding: 1vw;
+    font-size: 1.7vw;
+    opacity: 1;
+}
+
 /*  --------------COLUMNS PROJECTS-------------- */
 .wrapper{
     padding: 5px;
@@ -359,7 +382,7 @@ div.header {
 /*  --------------VIDEO GALLARY-------------- */
 
 .containerV{
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
