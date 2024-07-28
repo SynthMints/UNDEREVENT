@@ -167,6 +167,10 @@ img{
     height: auto;
 }
 
+.image-border {
+    border-style: solid;
+}
+
 /*  --------------PAST PROJECTS-------------- */
 .PPV{
     text-align: center;
