@@ -167,7 +167,7 @@ img{
     height: auto;
 }
 
-.image-border {
+.image-border img {
     border-style: solid;
 }
 
