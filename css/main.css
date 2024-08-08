@@ -105,6 +105,28 @@
     margin-top: auto;
 }
 
+
+:root{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* 
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2vw;
+    background-color: #fff129;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2vw;
+}
+*/
 .sillysoul{
     position: fixed;
     left: 0;
@@ -169,6 +191,12 @@ img{
 
 .image-border img {
     border-style: solid;
+}
+
+h1{
+    font-size: 2vw;
+    padding-bottom: 1vw;
+    text-decoration: none;
 }
 
 /*  --------------PAST PROJECTS-------------- */
@@ -364,8 +392,12 @@ p{
 
 .textL{
     font-size: 20px;
+    padding-right: 20px;
     padding: left;
     font-size: 1vw;
+    max-width:35vw;
+    word-wrap:break-word;
+    line-height: 1.2;
 }
 
 .imageR{
@@ -375,10 +407,12 @@ p{
 }
 
 .textR{
-    font-size: 20px;
     padding-right: 20px;
     padding: right;
-    font-size: 1vw;
+    font-size: 32vw;
+    max-width:35vw;
+    word-wrap:break-word;
+    line-height: 1.2;
 }
 
 .containerC{
